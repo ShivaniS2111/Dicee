@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-size: 35px;
+    color: rgb(223, 207, 207);
+    font-weight: 400;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right bottom, #45080D,#9A1A2A, #E91A2A) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container{
+    width: 70vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+h1{
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+}
+
+.heading{
+    border-bottom: 1px solid rgb(223, 207, 207, 0.5);
+}
+.row{
+    width: 100%;
+    margin: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    width: 47%;
+    height: 48vh;
+    background: linear-gradient(to right bottom, rgba(255, 252, 252, 0.7), rgba(255, 252, 252, 0)) no-repeat;
+    opacity: 0.9;
+    border: 2px solid rgb(223, 207, 207);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 40px;
+    text-align: center;
+}
+.col-2{
+    background: linear-gradient(to left bottom, rgba(255, 252, 252, 0.7), rgba(255, 252, 252, 0)) no-repeat;
+}
+
+.dice-btn{
+    background: url("images/dice6.png") no-repeat;
+    background-size: 145px 145px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4); 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.col p{
+    padding-bottom: 20px;
+}
+
+.r-btn{
+    background: transparent;
+    width: 200px;
+    height: 60px;
+    border: 2px solid rgb(223, 207, 207);
+    outline: none;
+    cursor: pointer;
+}
+.btn{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); 
+}
+
+footer{
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 9px;
+    color: rgba(0,0,0, 0.7);
+}
